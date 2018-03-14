@@ -8,9 +8,6 @@ module Timerecord.IO
      getFormatFileContents)
 where
 
-import Commons.Time (currentTime,
-                     formatTime)  
-
 import System.FilePath ((</>))
 import System.Directory 
 import Control.Exception (catch,
