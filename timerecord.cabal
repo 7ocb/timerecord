@@ -83,3 +83,18 @@ executable timerecord
   
 --   -- Base language which the package is written in.
   default-language:    Haskell2010
+
+  other-modules:
+                 Commons.Time,
+                 Timerecord.Commons,
+                 Timerecord.Config,
+                 Timerecord.ExecutionTime,
+                 Timerecord.IO,
+                 Timerecord.Parsing,
+                 Timerecord.ProjectCodes,
+                 Timerecord.Reports,
+                 Timerecord.ShowStats,
+                 Timerecord.State,
+                 Timerecord.Templates,
+                 Timerecord.Util
+
